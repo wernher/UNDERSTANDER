@@ -199,7 +199,7 @@ partsoflist([P|Tail],Total) :-
 
 
 
-/* 
+/* changed
 ako(chair,furniture).
 ako(chair,seat).
 isa(your_chair,chair).
