@@ -200,40 +200,7 @@ partsoflist([P|Tail],Total) :-
 
 
 /* changed
-ako(chair,furniture).
-ako(chair,seat).
-isa(your_chair,chair).
-isa(you,person).
-made_of(your_chair,wood).
-colour(wood,brown).
-belongs_to(your_chair,you).
 
-
-pop(usa, 203).
-pop(india, 548).
-pop(china, 800).
-pop(brazil, 108).
-area(usa, 3).
-area(india, 1).
-area(china, 4).
-area(brazil, 3).
-
-density(X,Y) :- pop(X,P), area(X,A), Y is P/A.
-
-
-fuel_consumed(waster,[3.1,10.4,15.9,10.3]).
-fuel_consumed(guzzler,[3.2,9.9,13.0,11.6]).
-fuel_consumed(prodigal,[2.8,9.8,13.1,10.4]).
-
-equal_or_better_consumption(Good,Bad) :- 
-	Threshold is (Good+Bad)/40, 
-	Worst is Bad+Threshold, 
-	Good < Worst. 
-
-always_better([],[]).
-always_better([Con1|T1],[Con2|T2]) :-
-	equal_or_better_consumption(Con1, Con2),
-	always_better(T1,T2).
 	
 
 prefer(Car1,Car2) :- 
